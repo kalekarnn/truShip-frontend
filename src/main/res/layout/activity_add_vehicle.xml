@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical"
+    android:weightSum="100">
+
+    <EditText
+        android:id="@+id/edtRegistrationNumber"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:hint="Registration Number"
+        android:layout_weight="10"
+        >
+    </EditText>
+
+    <EditText
+        android:id="@+id/edtLicenseNumber"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:hint="License Number"
+        android:layout_weight="10"
+        android:inputType="text">
+    </EditText>
+
+
+    <EditText
+        android:id="@+id/edtVehicleLength"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:hint="Vehicle Length"
+        android:layout_weight="10"
+        android:inputType="numberDecimal">
+    </EditText>
+
+    <EditText
+        android:id="@+id/edtVehicleWidth"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:hint="Vehicle Width"
+        android:layout_weight="10"
+        android:inputType="numberDecimal">
+    </EditText>
+
+    <EditText
+        android:id="@+id/edtVehicleHeight"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:hint="Vehicle Height"
+        android:layout_weight="10"
+        android:inputType="numberDecimal">
+    </EditText>
+
+    <EditText
+        android:id="@+id/edtVehicleWeightCapacity"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:hint="Vehicle Weight Capacity"
+        android:layout_weight="10"
+        android:inputType="numberDecimal">
+    </EditText>
+
+
+    <Button
+        android:id="@+id/btnAddVehicle"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="Add Vehicle"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:layout_weight="8">
+    </Button>
+
+</LinearLayout>

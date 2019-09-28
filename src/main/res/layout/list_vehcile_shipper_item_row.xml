@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:padding="5dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="0dp"
+            android:padding="5dp"
+            android:layout_weight="1"
+            android:textSize="@dimen/normal_font_size"
+            android:textColor="@android:color/darker_gray"
+            android:text="Registration Number"
+            android:layout_height="wrap_content">
+        </TextView>
+
+
+        <TextView
+            android:id="@+id/tvRegNumber"
+            android:layout_width="0dp"
+            android:padding="5dp"
+            android:textStyle="bold"
+            android:textSize="@dimen/normal_font_size"
+            android:layout_weight="1"
+            android:textColor="@android:color/black"
+            android:layout_height="wrap_content">
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:padding="5dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="0dp"
+            android:padding="5dp"
+            android:layout_weight="1"
+            android:textSize="@dimen/normal_font_size"
+            android:textColor="@android:color/darker_gray"
+            android:text="License Number"
+            android:layout_height="wrap_content">
+        </TextView>
+
+
+        <TextView
+            android:id="@+id/tvLicenseNumber"
+            android:layout_width="0dp"
+            android:padding="5dp"
+            android:textSize="@dimen/normal_font_size"
+            android:layout_weight="1"
+            android:textColor="@android:color/black"
+            android:layout_height="wrap_content">
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:padding="5dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="0dp"
+            android:padding="5dp"
+            android:layout_weight="1"
+            android:textSize="@dimen/normal_font_size"
+            android:textColor="@android:color/darker_gray"
+            android:text="Capacity Volume"
+            android:layout_height="wrap_content">
+        </TextView>
+
+
+        <TextView
+            android:id="@+id/tvCapacityVolume"
+            android:layout_width="0dp"
+            android:padding="5dp"
+            android:textSize="@dimen/normal_font_size"
+            android:layout_weight="1"
+            android:textColor="@android:color/black"
+            android:layout_height="wrap_content">
+        </TextView>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:padding="5dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="0dp"
+            android:padding="5dp"
+            android:layout_weight="1"
+            android:textSize="@dimen/normal_font_size"
+            android:textColor="@android:color/darker_gray"
+            android:text="Capacity Weight"
+            android:layout_height="wrap_content">
+        </TextView>
+
+
+        <TextView
+            android:id="@+id/tvCapacityWeight"
+            android:layout_width="0dp"
+            android:padding="5dp"
+            android:textSize="@dimen/normal_font_size"
+            android:layout_weight="1"
+            android:textColor="@android:color/black"
+            android:layout_height="wrap_content">
+        </TextView>
+
+    </LinearLayout>
+</LinearLayout>
